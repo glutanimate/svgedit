@@ -1900,7 +1900,7 @@ TODOS
 				});
 			};
 
-			var zoomDone = function() {
+			var zoomDone = editor.zoomDone = function() {
 				updateWireFrame();
 				// updateCanvas(); // necessary?
 			};
